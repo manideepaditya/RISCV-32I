@@ -1,0 +1,40 @@
+module csr_top_module (
+    input wire clk,      // Clock input
+    input wire reset,    // Reset input
+    input wire write_en, // Write enable input
+    input wire [2:0] write_addr,  // Address for write operation
+    input wire [31:0] write_data, // Data for write operation
+    input wire [2:0] read_addr,   // Address for read operation
+    output wire [31:0] read_data  // Data for read operation
+);
+
+    // Define the size of the CSR file
+    parameter NUM_REGISTERS = 8;
+    reg [31:0] registers [0:NUM_REGISTERS-1];
+
+    // Always block for clock and reset
+    always @(posedge clk or posedge reset) begin
+        if (reset) begin
+            // Reset all registers to zero
+            for (i = 0; i < NUM_REGISTERS; i = i + 1) begin
+                registers[i] <= 32'b0;
+            end
+        end else begin
+            // Check if it's a write operation and the write address is within range
+            if (write_en && (write_addr < NUM_REGISTERS)) begin
+                // Perform the write operation
+                registers[write_addr] <= write_data;
+            end
+        end
+    end
+
+    // Read operation
+    always @(*) begin
+        if (read_addr < NUM_REGISTERS) begin
+            read_data = registers[read_addr];
+        end else begin
+            read_data = 32'b0; // Return zero for invalid address
+        end
+    end
+endmodule
+

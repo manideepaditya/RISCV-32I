@@ -1,0 +1,88 @@
+`timescale 1ns / 1ps
+
+module top_module_tb;
+
+    // Parameters
+    reg ms_riscv32_mp_clk_in;
+    reg ms_riscv32_mp_rst_in;
+    reg [63:0] ms_riscv32_mp_rc_in;
+    wire [31:0] ms_riscv32_mp_imaddr_out;
+    reg [31:0] ms_riscv32_mp_instr_in;
+    reg ms_riscv32_mp_instr_hready_in;
+    wire [31:0] ms_riscv32_mp_dmaddr_out; 
+    wire [31:0] ms_riscv32_mp_dmdata_out;
+    wire ms_riscv32_mp_dmwr_req_out;
+    wire [3:0]  ms_riscv32_mp_dmwr_mask_out;
+    reg [31:0]  ms_riscv32_mp_data_in;
+    reg ms_riscv32_mp_data_hready_in;
+    reg ms_riscv32_mp_hresp_in;
+    wire [1:0]  ms_riscv32_mp_data_htrans_out;
+    reg ms_riscv32_mp_eirq_in;
+    reg ms_riscv32_mp_tirq_in;
+    reg ms_riscv32_mp_sirq_in;
+
+    // Instantiate the Unit Under Test (UUT)
+    top_module UUT (
+        .ms_riscv32_mp_clk_in(ms_riscv32_mp_clk_in),
+        .ms_riscv32_mp_rst_in(ms_riscv32_mp_rst_in),
+        .ms_riscv32_mp_rc_in(ms_riscv32_mp_rc_in),
+.ms_riscv32_mp_imaddr_out(ms_riscv32_mp_imaddr_out),
+.ms_riscv32_mp_instr_in(ms_riscv32_mp_instr_in),
+.ms_riscv32_mp_instr_hready_in(ms_riscv32_mp_instr_hready),
+.ms_riscv32_mp_dmaddr_out(ms_riscv32_mp_dmaddr_out), 
+.ms_riscv32_mp_dmdata_out(ms_riscv32_mp_dmdata),
+.ms_riscv32_mp_dmwr_req_out(ms_riscv32_mp_dmwr_req),
+.ms_riscv32_mp_dmwr_mask_out(ms_riscv32_mp_dmwr_mask),
+.ms_riscv32_mp_data_in(ms_riscv32_mp_data),
+.ms_riscv32_mp_data_hready_in(ms_riscv32_mp_data_hready),
+.ms_riscv32_mp_hresp_in(ms_riscv32_mp_hresp),
+.ms_riscv32_mp_data_htrans_out(ms_riscv32_mp_data_htrans),
+.ms_riscv32_mp_eirq_in(ms_riscv32_mp_eirq),
+.ms_riscv32_mp_tirq_in(ms_riscv32_mp_tirq),
+.ms_riscv32_mp_sirq_in(ms_riscv32_mp_sirq)
+
+
+    );
+
+    initial begin
+        // Initialize inputs
+        ms_riscv32_mp_clk_in = 0;
+        ms_riscv32_mp_rst_in = 1;
+        #10; // Wait for 10 time units
+        ms_riscv32_mp_rst_in = 0; // De-assert reset
+        #10; // Wait for another 10 time units
+
+        // Add your test cases here
+        // For example, you can set some values to the inputs and check the outputs
+       // Test Case 1: Set some values to inputs
+    ms_riscv32_mp_data_in = 32'hAABBCCDD;
+    ms_riscv32_mp_data_hready_in = 1;
+    ms_riscv32_mp_instr_in = 32'h12345678;
+    ms_riscv32_mp_instr_hready_in = 1;
+    // You can set more inputs as needed for your test cases
+
+    // Monitor the outputs
+    // You can add assertions or checks here
+    if (ms_riscv32_mp_data_htrans_out == 2'b01) begin
+        $display("Data transfer in progress");
+    end
+
+    #10; // Wait for a while
+
+    // Test Case 2: Change inputs and observe the outputs
+    ms_riscv32_mp_data_in = 32'h11223344;
+    ms_riscv32_mp_data_hready_in = 0;
+    ms_riscv32_mp_instr_in = 32'h87654321;
+    ms_riscv32_mp_instr_hready_in = 0;
+
+    // Monitor the outputs
+    if (ms_riscv32_mp_data_htrans_out == 2'b00) begin
+        $display("Data transfer completed");
+    end
+ // Finish the simulation
+        $finish;
+    end
+
+    always #5 ms_riscv32_mp_clk_in = ~ms_riscv32_mp_clk_in; // Clock generation
+
+endmodule

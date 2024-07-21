@@ -1,0 +1,343 @@
+C:/Users/DELL/OneDrive/Desktop/verilog/riscv/csrtb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/csrtb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_csr_file_tb
+
+Top level modules:
+	msrv32_csr_file_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/instruction_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/instruction_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_instruction_mux
+
+Top level modules:
+	tb_msrv32_instruction_mux
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/ALU_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/ALU_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} C:/Users/DELL/Downloads/msrv32_dec.v {1 {vlog -work work -stats=none C:/Users/DELL/Downloads/msrv32_dec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_dec
+
+Top level modules:
+	msrv32_dec
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/branch_unit_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/branch_unit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_bu
+
+Top level modules:
+	tb_msrv32_bu
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_immediate_adder.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_immediate_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_immediate_adder
+
+Top level modules:
+	msrv32_immediate_adder
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_reg_block_1.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_reg_block_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_reg_block_1
+
+Top level modules:
+	msrv32_reg_block_1
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/machine_counter.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/machine_counter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module machine_counter
+
+Top level modules:
+	machine_counter
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/csrtb_1.v {0 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/csrtb_1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module csr_top_module
+** Error: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/csrtb_1.v(15): (vlog-2730) Undefined variable: 'i'.
+
+} {4.0 5.0} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_instruction_mux.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_instruction_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_instruction_mux
+
+Top level modules:
+	msrv32_instruction_mux
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wb_mux_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wb_mux_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_sel_unit_tb
+
+Top level modules:
+	mux_sel_unit_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/alu.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_ALU
+
+Top level modules:
+	msrv32_ALU
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/misa_and_pre_data.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/misa_and_pre_data.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module misa_and_pre_data
+
+Top level modules:
+	misa_and_pre_data
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_machine_control.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_machine_control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_machine_control
+
+Top level modules:
+	msrv32_machine_control
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mepc_and_mscratch_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mepc_and_mscratch_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mepc_and_mscratch_reg
+
+Top level modules:
+	mepc_and_mscratch_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mie_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mie_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mie_reg
+
+Top level modules:
+	mie_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_reg_block_2.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_reg_block_2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_reg_block_2
+
+Top level modules:
+	msrv32_reg_block_2
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mtvec_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mtvec_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mtvec_reg
+
+Top level modules:
+	mtvec_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/decoder_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/decoder_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_dec_tb
+
+Top level modules:
+	msrv32_dec_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/machinetb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/machinetb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_machine_control_tb
+
+Top level modules:
+	msrv32_machine_control_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/store_unit.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/store_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_store_unit
+
+Top level modules:
+	msrv32_store_unit
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mcause_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mcause_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mcause_reg
+
+Top level modules:
+	mcause_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_wr_en_generator.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_wr_en_generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_wr_en_generator
+
+Top level modules:
+	msrv32_wr_en_generator
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/reg_block_2_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/reg_block_2_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_reg_block_2_tb
+
+Top level modules:
+	msrv32_reg_block_2_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/load_unit.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/load_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_lu
+
+Top level modules:
+	msrv32_lu
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_pc.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_pc_mux
+
+Top level modules:
+	msrv32_pc_mux
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/top_tb.v {1 {vlog -work work -stats=none {C:\Users\DELL\OneDrive\Desktop\verilog\riscv\top_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module_tb
+
+Top level modules:
+	top_module_tb
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/store_unit_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/store_unit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_store_unit
+
+Top level modules:
+	tb_msrv32_store_unit
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/regblocktb2.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/regblocktb2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_reg_block_2
+
+Top level modules:
+	tb_msrv32_reg_block_2
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/data_wr_mux_unit.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/data_wr_mux_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_wr_mux_unit
+
+Top level modules:
+	data_wr_mux_unit
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/branch_unit.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/branch_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_bu
+
+Top level modules:
+	msrv32_bu
+
+} {} {}} C:/Users/DELL/Downloads/top_module.v {1 {vlog -work work -stats=none C:/Users/DELL/Downloads/top_module.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_module
+
+Top level modules:
+	top_module
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/immadd_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/immadd_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_immediate_adder
+
+Top level modules:
+	tb_msrv32_immediate_adder
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/immgenera_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/immgenera_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_imm_generator
+
+Top level modules:
+	tb_msrv32_imm_generator
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mtval_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mtval_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mtval_reg
+
+Top level modules:
+	mtval_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/integer_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/integer_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_integer_file
+
+Top level modules:
+	tb_msrv32_integer_file
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/load_unit_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/load_unit_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_lu
+
+Top level modules:
+	tb_msrv32_lu
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mip_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mip_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mip_reg
+
+Top level modules:
+	mip_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32pc_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32pc_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_pc
+
+Top level modules:
+	tb_msrv32_pc
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/regblock1_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/regblock1_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_reg_block_1
+
+Top level modules:
+	tb_msrv32_reg_block_1
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wb_mux.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wb_mux.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_wb_mux_sel_unit
+
+Top level modules:
+	msrv32_wb_mux_sel_unit
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/csr_data_mux_unit.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/csr_data_mux_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module csr_data_mux_unit
+
+Top level modules:
+	csr_data_mux_unit
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/msrv32_csr_file.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/msrv32_csr_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_csr_file
+
+Top level modules:
+	msrv32_csr_file
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v {2 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_img
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(15): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(16): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(18): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(19): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(20): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(21): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_imm_generator.v(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	msrv32_img
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mstatus_reg.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/mstatus_reg.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mstatus_reg
+
+Top level modules:
+	mstatus_reg
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wr_en_tb.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/wr_en_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_msrv32_wr_en_generator
+
+Top level modules:
+	tb_msrv32_wr_en_generator
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_integer_file.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/msrv32_integer_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module msrv32_integer_file
+
+Top level modules:
+	msrv32_integer_file
+
+} {} {}} C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/machine_counter_setup.v {1 {vlog -work work -stats=none C:/Users/DELL/OneDrive/Desktop/verilog/riscv/rtl/machine_counter_setup.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module machine_counter_setup
+
+Top level modules:
+	machine_counter_setup
+
+} {} {}}
